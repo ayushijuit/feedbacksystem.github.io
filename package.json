@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ayushijuit.github.io/feedbacksystem",
+  "homepage": "https://ayushijuit.github.io/feedbacksystem",
   "name": "project",
   "version": "1.0.0",
   "description": "",
@@ -10,11 +10,12 @@
   },
   "scripts": {
     "start": "node index.js",
-    "deploy":"gh-paged -d build"
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "deploy": "^1.0.3",
     "express": "^4.17.1",
     "gh-pages": "^2.2.0"
   }
