@@ -13,14 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy":"gh-pages -d index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayushijuit/feedbacksystem.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ayushijuit/feedbacksystem/issues"
-  },
+
   "homepage": "https://github.com/ayushijuit/feedbacksystem"
 }
