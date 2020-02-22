@@ -1,22 +1,26 @@
 {
-  "homepage": "https://ayushijuit.github.io/feedbacksystem",
-  "name": "project",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "npm": "^6.13.7",
-    "node": "^13.8.0"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "deploy": "gh-pages -d build"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "deploy": "^1.0.3",
     "express": "^4.17.1",
     "gh-pages": "^2.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushijuit/feedbacksystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushijuit/feedbacksystem/issues"
+  },
+  "homepage": "https://github.com/ayushijuit/feedbacksystem"
 }
